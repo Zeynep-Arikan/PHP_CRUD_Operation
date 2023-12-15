@@ -1,15 +1,15 @@
 <!-- home.blade.php -->
 <!DOCTYPE html>
 <html lang="en">
-    @include('components.head')
+    @include('livewire.head')
     <body id="page-top">
-        @include('components.navbar')
+        @include('livewire.navbar')
         <!-- Masthead-->
     
-        <!-- About-->
+            <!-- About-->
         @yield('page')
         
-        @include('components.footer')
-        @include('components.script')
+        @include('livewire.footer')
+        @include('livewire.script')
     </body>
 </html>
